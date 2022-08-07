@@ -19,7 +19,7 @@ public class JGeo {
     }
 
     public static void main(String[] args) {
-        JGeo jGeo = new JGeo(new IPApi2DGSP("91.2.225.225"));
+        JGeo jGeo = new JGeo(new IPApi2DGSP("YOUR-IP"));
         System.out.println(Arrays.toString(jGeo.getDetails().getDataArray()));
     }
 
